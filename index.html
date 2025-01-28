@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- cdn daisy -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- header section -->
+    <header class="md:container mx-auto">
+        <!-- nav section -->
+        <div class="navbar bg-base-100 py-8">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Item 1</a></li>
+                  
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <a class="btn btn-ghost text-xl font-bold">Justice</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home > </a></li>
+                <li><a>About ></a></li>
+                <li><a>INews ></a></li>
+                <li><a>Contact ></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-[#B68C5A]">Button</a>
+            </div>
+          </div>
+
+          <!-- section header banner -->
+           <div class="w-full rounded-md py-10">
+            <div
+            class="hero rounded-md "
+            style="background-image: url(images/banner.png);">
+            
+            <div class="hero-content text-neutral-content text-center py-14 w-full">
+              <div class="max-w-md lg:space-y-4">
+                <h1 class="mb-5 text-4xl font-bold ">We Provide Effective Legal Solutions</h1>
+                <p class="mb-5">
+                  Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                  quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+               <div class="flex lg:flex-row lg:justify-between flex-col gap-5  w-full lg:items-center lg:gap-5 ">
+                <input class="btn w-4/6 bg-white text-left outline-none flex-1 " placeholder="Email"></input>
+                <button class="btn w-2/6 bg-[#B68C5A]">Get Started</button>
+
+               </div>
+              </div>
+            </div>
+          </div>
+           </div>
+
+    </header>
+
+
+    <!-- main -->
+     <main class="md:container mx-auto">
+        <!-- section The Legal Practice Area -->
+         <section class="w-full">
+         <!-- top text div -->
+          <div class="flex flex-col lg:flex-col space-y-4 text-center mb-5">
+        <h1 class="font-bold text-4xl">The Legal Practice Area</h1>
+        <p class="text-lg w-3/6 text-gray-600 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          </div>
+
+
+          <!-- card section pard div -->
+           <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 border-collapse mb-24">
+            <!-- card1 -->
+            <div class=" bg-base-100 w-full border">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="images/business.png"
+                    alt="Shoes"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card2 -->
+              <div class=" bg-gradient-to-b from-[#010101] w-full border">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="images/criminal.png"
+                    alt="Shoes"
+                    class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- card3 -->
+              <div class=" bg-[#F3F3F3] w-full border">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="images/child.png"
+                    alt="Shoes"
+                    class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card4 -->
+              <div class=" bg-base-100 w-full border">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="images/education.png"
+                    alt="Shoes"
+                    class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card5 -->
+              <div class=" bg-base-100 w-full border">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="images/divorce.png"
+                    alt="Shoes"
+                    class="" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- card6 -->
+              <div class=" bg-base-100 w-full border b ">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="images/tax.png"
+                    alt="Shoes"
+                    class="" />
+                </figure>
+                <div class="card-body items-center">
+                  <h2 class="card-title">Shoes!</h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+           </div>
+         </section>
+
+
+     </main>
+</body>
+</html>
