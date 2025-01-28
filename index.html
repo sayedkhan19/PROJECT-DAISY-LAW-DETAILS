@@ -10,15 +10,15 @@
 </head>
 <body>
     <!-- header section -->
-    <header class="md:container mx-auto">
+    <header class="mx-auto md:container">
         <!-- nav section -->
-        <div class="navbar bg-base-100 py-8">
+        <div class="py-8 navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="h-5 w-5"
+                    class="w-5 h-5"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -37,10 +37,10 @@
                   <li><a>Item 3</a></li>
                 </ul>
               </div>
-              <a class="btn btn-ghost text-xl font-bold">Justice</a>
+              <a class="text-xl font-bold btn btn-ghost">Justice</a>
             </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1">
+            <div class="hidden navbar-center lg:flex">
+              <ul class="px-1 menu menu-horizontal">
                 <li><a>Home > </a></li>
                 <li><a>About ></a></li>
                 <li><a>INews ></a></li>
@@ -53,20 +53,19 @@
           </div>
 
           <!-- section header banner -->
-           <div class="w-full rounded-md py-10">
-            <div
-            class="hero rounded-md "
+           <div class="w-full min-h-screen py-10 rounded-md">
+            <div class="p-10 rounded-md hero"
             style="background-image: url(images/banner.png);">
             
-            <div class="hero-content text-neutral-content text-center py-14 w-full">
+            <div class="w-full text-center hero-content text-neutral-content py-14">
               <div class="max-w-md lg:space-y-4">
                 <h1 class="mb-5 text-4xl font-bold ">We Provide Effective Legal Solutions</h1>
                 <p class="mb-5">
                   Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                   quasi. In deleniti eaque aut repudiandae et a id nisi.
                 </p>
-               <div class="flex lg:flex-row lg:justify-between flex-col gap-5  w-full lg:items-center lg:gap-5 ">
-                <input class="btn w-4/6 bg-white text-left outline-none flex-1 " placeholder="Email"></input>
+               <div class="flex flex-col w-full gap-5 lg:flex-row lg:justify-between lg:items-center lg:gap-5 ">
+                <input class="flex-1 w-4/6 text-left bg-white outline-none btn " placeholder="Email"></input>
                 <button class="btn w-2/6 bg-[#B68C5A]">Get Started</button>
 
                </div>
@@ -79,31 +78,31 @@
 
 
     <!-- main -->
-     <main class="md:container mx-auto">
+     <main class="mx-auto md:container">
         <!-- section The Legal Practice Area -->
          <section class="w-full">
          <!-- top text div -->
-          <div class="flex flex-col lg:flex-col space-y-4 text-center mb-5">
-        <h1 class="font-bold text-4xl">The Legal Practice Area</h1>
-        <p class="text-lg w-3/6 text-gray-600 mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+          <div class="flex flex-col mb-5 space-y-4 text-center lg:flex-col">
+        <h1 class="text-4xl font-bold">The Legal Practice Area</h1>
+        <p class="w-3/6 mx-auto text-lg text-gray-600">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
           </div>
 
 
           <!-- card section pard div -->
-           <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 border-collapse mb-24">
+           <div class="grid grid-cols-1 mb-24 border-collapse lg:grid-cols-3 md:grid-cols-2">
             <!-- card1 -->
-            <div class=" bg-base-100 w-full border">
+            <div class="w-full border bg-base-100">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/business.png"
                     alt="Shoes"
                     class="rounded-xl" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="items-center text-center card-body">
+                  <h2 class="font-bold card-title text-2x">Business Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                   <div class="card-actions">
-                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                    <img src="images/Frame.png" alt="">
                   </div>
                 </div>
               </div>
@@ -116,11 +115,11 @@
                     alt="Shoes"
                     class="" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="items-center text-center card-body">
+                  <h2 class="text-2xl font-bold card-title">Criminal Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                   <div class="card-actions">
-                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                    <img src="images/Frame.png" alt="">
                   </div>
                 </div>
               </div>
@@ -134,70 +133,124 @@
                     alt="Shoes"
                     class="" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="items-center text-center card-body">
+                  <h2 class="text-2xl font-bold card-title">Child Support</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                   <div class="card-actions">
-                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                    <img src="images/Frame.png" alt="">
                   </div>
                 </div>
               </div>
 
               <!-- card4 -->
-              <div class=" bg-base-100 w-full border">
+              <div class="w-full border bg-base-100">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/education.png"
                     alt="Shoes"
                     class="" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="items-center text-center card-body">
+                  <h2 class="text-2xl font-bold card-title">Education Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                   <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                    <img src="images/Frame.png" alt="">
                   </div>
                 </div>
               </div>
 
               <!-- card5 -->
-              <div class=" bg-base-100 w-full border">
+              <div class="w-full border bg-base-100">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/divorce.png"
                     alt="Shoes"
                     class="" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="items-center text-center card-body">
+                  <h2 class="text-2xl font-bold card-title">Divorce Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                   <div class="card-actions">
-                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                    <img src="images/Frame.png" alt="">
                   </div>
                 </div>
               </div>
 
 
               <!-- card6 -->
-              <div class=" bg-base-100 w-full border b ">
+              <div class="w-full border bg-base-100 b">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/tax.png"
                     alt="Shoes"
                     class="" />
                 </figure>
-                <div class="card-body items-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                <div class="items-center card-body">
+                  <h2 class="text-2xl font-bold card-title">Tax Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                   <div class="card-actions">
-                    <button class="btn bg-[#B68C5A]">Buy Now</button>
+                    <img src="images/Frame.png" alt="">
                   </div>
                 </div>
               </div>
            </div>
          </section>
 
+<!-- What Our Client Say section -->
+ <section class="grid w-full mb-24 gr10id-rows-1 lg:grid-rows-1 md:grid-rows-1">
+  <!-- top tex tdiv -->
+   <div class="flex flex-col lg:flex-col">
+    <h1>What Our Client Say</h1>
+    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
 
+    
+    
+   </div>
+
+   <!-- imga div with width -->
+    <div class="w-full min-h-screen bg-no-repeat bg-cover "
+    style="background-image: url('images/banner.png');">
+    <!-- carosel stsrtt -->
+    <div class="md:container carousel">
+      <div id="slide1" class="relative w-full carousel-item">
+        <div class="flex flex-col items-center w-full mx-auto lg:flex-col lg:items-center lg:py-28 lg:space-y-2 py-36">
+          <img class="w-1/6" src="images/user-1.png" alt="">
+          <h1 class="text-4xl font-bold text-white">Awlad Hossain</h1>
+          <p class="w-4/6 text-white">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+      <div id="slide2" class="relative w-full carousel-item">
+        <div>
+          <img src="images/user-1.png" alt="">
+          <h1 class="text-4xl font-bold text-white">Awlad Hossain</h1>
+        </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+       class="relative w-full carousel-item">
+        <img
+          src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+          class="w-full" />
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide3" class="btn btn-circle">❮</a>
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+    </div>
+   
+    
+   
+   
+  
+  
+ </section>
      </main>
 </body>
 </html>
